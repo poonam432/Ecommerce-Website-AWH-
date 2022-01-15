@@ -1,0 +1,1029 @@
+-------index.html---------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width-device= width" initial-scale="1.0">
+    <meta charset="UTF-8">
+    <title>Prisha-Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">PRISHA</a>
+        <div class="search-box">
+
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <input type="text" class="search-box" placeholder="search brand , product">
+        <button class="search-btn">Search</button>
+        <i class="fa fa-shopping-bag"></i>
+        <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+
+    </header>
+
+    <section class="background" id="HOME">
+        <div class="box">
+            <h2>Sale 30% off</h2>
+            <p> Style is a way to say who you are <br> without having to speak</p>
+            <a href="#" class="button">Shop Now</a>
+        </div>
+    </section>
+    <section class="services" id="PRODUCTS">
+        <h2 class="product-category">Best Selling</h2>
+        <button class="pre-btn"><img src="arrow.png"></button>
+        <button class="nxt-btn"><img src="arrow.png"></button>
+
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount">60% off</span>
+                    <img src="pexels-nina-hill-10019032.jpg" class="product-thumb">
+                    <button class="card-button">Add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-des">Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount">60% off</span>
+                    <img src="pexels-pixabay-532220.jpg" class="product-thumb">
+                    <button class="card-button">Add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-des">Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount">60% off</span>
+                    <img src="pexels-lucas-alves-9590220.jpg" class="product-thumb">
+                    <button class="card-button">Add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-des">Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount">60% off</span>
+                    <img src="pexels-cottonbro-6626903.jpg" class="product-thumb">
+                    <button class="card-button">Add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-des">Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount">60% off</span>
+                    <img src="pexels-ziad-nr-2706265.jpg" class="product-thumb">
+                    <button class="card-button">Add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-des">Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount">60% off</span>
+                    <img src="pexels-luizclas-1848565.jpg" class="product-thumb">
+                    <button class="card-button">Add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-des">Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount">60% off</span>
+                    <img src="pexels-nichole-sebastian-3323163.jpg" class="product-thumb">
+                    <button class="card-button">Add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-des">Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount">60% off</span>
+                    <img src="pexels-el-sultan-3220386.jpg" class="product-thumb">
+                    <button class="card-button">Add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-des">Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="gallery-collection">
+        <a href="#" class="collection">
+            <img src="pexels-andrea-piacquadio-3764551.jpg">
+            <p class="title">women <br> appearls</p>
+        </a>
+        <a href="#" class="collection">
+            <img src="pexels-cottonbro-9950586.jpg">
+            <p class="title">men <br> appearls</p>
+        </a>
+        <a href="#" class="collection">
+            <img src="pexels-tembela-bohle-1884584.jpg">
+            <p class="title">accesories</p>
+        </a>
+    </section>
+    <section class="work">
+        <h2 class=" product-category">Featured Products</h2>
+        <div class="content">
+            <div class="workbox">
+                <img src="pexels-dimitri-kuliuk-2472858.jpg">
+                <h4>Gown</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Starting from $60.52</p>
+            </div>
+            <div class="workbox">
+                <img src="pexels-august-de-richelieu-4427876.jpg">
+                <h4>Jackets & coats</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Starting from $50.52</p>
+            </div>
+            <div class="workbox">
+                <img src="pexels-angela-roma-7479825.jpg">
+                <h4>Hoodies</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Starting from $55.52</p>
+            </div>
+            <div class="workbox">
+                <img src="pexels-min-an-1271989.jpg">
+                <h4>Shorts & Skirts</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Starting from $65.52</p>
+            </div>
+            <div class="workbox">
+                <img src="pexels-kenneth-gorzal-surillo-5157363.jpg">
+                <h4>Jewellery</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Starting from $65.52</p>
+            </div>
+            <div class="workbox">
+                <img src="pexels-torsten-dettlaff-437037 (1).jpg">
+                <h4>Watches</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Starting from $65.52</p>
+            </div>
+
+            <div class="workbox">
+                <img src="pexels-mnz-1598505.jpg">
+                <h4>Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Starting from $65.52</p>
+            </div>
+            <div class="workbox">
+                <img src="pexels-godisable-jacob-1942880.jpg">
+                <h4>Heels</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Starting from $65.52</p>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <section class="Testimonial">
+        <div class="Intro">
+        </div>
+        <div class="content">
+            <div class="Testimonialbox">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Soluta repellat repudiandae,<br> dolor
+                    excepturi rem.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <img src="pexels-andrea-piacquadio-3785079.jpg">
+                <h3>von sing</h3>
+            </div>
+            <div class="Testimonialbox">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Soluta repellat repudiandae,<br> dolor
+                    excepturi rem.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <img src="pexels-artem-2078149.jpg">
+                <h3>sang kun</h3>
+            </div>
+            <div class="Testimonialbox">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Soluta repellat repudiandae,<br> dolor
+                    excepturi rem.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <img src="pexels-kevin-bidwell-2380795.jpg">
+                <h3>John deo</h3>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container" id="contact">
+            <div class="social-media">
+                <h1 class="follow-text">Follow on Social Media</h1>
+                <a href="#"><i class='fab fa-facebook'></i></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+
+            <div class="contactbox1">
+                <h3>Usefull Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="contactbox2">
+                <a href="#" class="logo">PRISHA</a>
+                <p>Lorem, ipsum dolor sit amet <br> consectetur adipisicing elit <br>
+                    .Copyright @ 2022. All rights reserved</p>
+            </div>
+            <div class="contactbox3">
+                <h3 class="img-text">Download the App</h3>
+                <div class="App-logo">
+                    <img src="apple store.png">
+                    <img src="images.jpg">
+
+                </div>
+            </div>
+
+    </footer>
+
+    <script type="text/javascript">
+
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        const productContainers = [...document.querySelectorAll('.product-container')];
+        const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
+        const preBtn = [...document.querySelectorAll('.pre-btn')];
+
+        productContainers.forEach((item, i) => {
+            let containerDimensions = item.getBoundingClientRect();
+            let containerWidth = containerDimensions.width;
+
+            nxtBtn[i].addEventListener('click', () => {
+                item.scrollLeft += containerWidth;
+            }
+            )
+
+            preBtn[i].addEventListener('click', () => {
+                item.scrollLeft -= containerWidth;
+            }
+            )
+        })
+
+    </script>
+</body>
+
+</html>
+
+
+-------product.html-----------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width-device= width" initial-scale="1.0">
+    <meta charset="UTF-8">
+    <title>Products-Prisha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+    <header style="background: white;">
+        <a href="index.html" class="logo">PRISHA</a>
+        <div class="search-box">
+
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <input type="text" class="search-box" placeholder="search brand , product">
+        <button class="search-btn">Search</button>
+        <i class="fa fa-shopping-bag"></i>
+        <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+    </header>
+    <section class="services" id="PRODUCTS">
+        <h2 class="product-category">Best Selling</h2>
+        <button class="pre-btn"><img src="arrow.png"></button>
+        <button class="nxt-btn"><img src="arrow.png"></button>
+
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount">60% off</span>
+                    <img src="pexels-nina-hill-10019032.jpg" class="product-thumb">
+                    <button class="card-button">Add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-des">Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount">60% off</span>
+                    <img src="pexels-pixabay-532220.jpg" class="product-thumb">
+                    <button class="card-button">Add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-des">Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount">60% off</span>
+                    <img src="pexels-lucas-alves-9590220.jpg" class="product-thumb">
+                    <button class="card-button">Add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-des">Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount">60% off</span>
+                    <img src="pexels-cottonbro-6626903.jpg" class="product-thumb">
+                    <button class="card-button">Add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-des">Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount">60% off</span>
+                    <img src="pexels-ziad-nr-2706265.jpg" class="product-thumb">
+                    <button class="card-button">Add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-des">Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount">60% off</span>
+                    <img src="pexels-luizclas-1848565.jpg" class="product-thumb">
+                    <button class="card-button">Add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-des">Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount">60% off</span>
+                    <img src="pexels-nichole-sebastian-3323163.jpg" class="product-thumb">
+                    <button class="card-button">Add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-des">Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount">60% off</span>
+                    <img src="pexels-el-sultan-3220386.jpg" class="product-thumb">
+                    <button class="card-button">Add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-des">Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="work">
+
+        <div class="sort">
+            <select>
+                <option>Default sorting</option>
+                <option>Sort by price</option>
+                <option>Sort by popularity</option>
+                <option>Sort by rating</option>
+            </select>
+        </div>
+        <h2 class=" product-category">Featured Products</h2>
+        <!-- </div> -->
+        <div class="content">
+            <div class="workbox">
+                <img src="pexels-dimitri-kuliuk-2472858.jpg">
+                <h4>Gown</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Starting from $60.52</p>
+            </div>
+            <div class="workbox">
+                <img src="pexels-august-de-richelieu-4427876.jpg">
+                <h4>Jackets & coats</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Starting from $50.52</p>
+            </div>
+            <div class="workbox">
+                <img src="pexels-angela-roma-7479825.jpg">
+                <h4>Hoodies</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Starting from $55.52</p>
+            </div>
+            <div class="workbox">
+                <img src="pexels-min-an-1271989.jpg">
+                <h4>Shorts & Skirts</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Starting from $65.52</p>
+            </div>
+            <div class="workbox">
+                <img src="pexels-kenneth-gorzal-surillo-5157363.jpg">
+                <h4>Jewellery</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Starting from $65.52</p>
+            </div>
+            <div class="workbox">
+                <img src="pexels-torsten-dettlaff-437037 (1).jpg">
+                <h4>Watches</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Starting from $65.52</p>
+            </div>
+
+            <div class="workbox">
+                <img src="pexels-mnz-1598505.jpg">
+                <h4>Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Starting from $65.52</p>
+            </div>
+            <div class="workbox">
+                <img src="pexels-godisable-jacob-1942880.jpg">
+                <h4>Heels</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Starting from $65.52</p>
+            </div>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span> &#8594;</span>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-container" id="contact">
+            <div class="social-media">
+                <h1 class="follow-text">Follow on Social Media</h1>
+                <a href="#"><i class='fab fa-facebook'></i></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+
+            <div class="contactbox1">
+                <h3>Usefull Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="contactbox2">
+                <a href="#" class="logo">PRISHA</a>
+                <p>Lorem, ipsum dolor sit amet <br> consectetur adipisicing elit <br>
+                    .Copyright @ 2022. All rights reserved</p>
+            </div>
+            <div class="contactbox3">
+                <h3 class="img-text">Download the App</h3>
+                <div class="App-logo">
+                    <img src="apple store.png">
+                    <img src="images.jpg">
+
+                </div>
+            </div>
+
+
+    </footer>
+
+    <script type="text/javascript">
+
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        const productContainers = [...document.querySelectorAll('.product-container')];
+        const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
+        const preBtn = [...document.querySelectorAll('.pre-btn')];
+
+        productContainers.forEach((item, i) => {
+            let containerDimensions = item.getBoundingClientRect();
+            let containerWidth = containerDimensions.width;
+
+            nxtBtn[i].addEventListener('click', () => {
+                item.scrollLeft += containerWidth;
+            }
+            )
+
+            preBtn[i].addEventListener('click', () => {
+                item.scrollLeft -= containerWidth;
+            }
+            )
+        })
+
+    </script>
+</body>
+
+</html>
+</body>
+
+</html>
+
+-------account.html-----------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width-device= width" initial-scale="1.0">
+    <meta charset="UTF-8">
+    <title>Shopping Cart - PRISHA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+    <header style="background: white;">
+        <a href="index.html" class="logo">PRISHA</a>
+        <div class="search-box">
+
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Account</a></li>
+
+        </nav>
+        <input type="text" class="search-box" placeholder="search brand , product">
+        <button class="search-btn">Search</button>
+        <i class="fa fa-shopping-bag"></i>
+        <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+
+    </header>
+
+    <div class="logo-create">
+        <h1>Login or signup</h1>
+        <form>
+            <input type="tel" placeholder="+91 | Mobile Number">
+            <input type="password" placeholder="Password">
+            <a href="#">Forgot password?</a>
+            <h2>Information remain confidential</h2>
+            <input type="checkbox" id="check">
+            <label for="check"> I read all the terms and condition</label>
+            <input type="submit" value="Login">
+            <h3>OR</h3>
+            <input type="button" value="Login with OTP">
+            <h4>OR <br> Continue with</h4>
+            <img src="google.png" class="google-logo">
+            <h5>Not having an account?</h5>
+            <button>Create account</button>
+        </form>
+    </div>
+</body>
+
+</html>
+
+------cart.html---------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width-device= width" initial-scale="1.0">
+    <meta charset="UTF-8">
+    <title>Shopping Cart - PRISHA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+    <header style="background: white;">
+        <a href="index.html" class="logo">PRISHA</a>
+        <div class="search-box">
+
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+
+        </nav>
+        <input type="text" class="search-box" placeholder="search brand , product">
+        <button class="search-btn">Search</button>
+        <i class="fa fa-shopping-bag"></i>
+        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+    </header>
+
+    <section class="cart">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-product">
+                        <img src="pexels-nina-hill-10019032.jpg">
+                    </div>
+                    <div>
+                        <p>gfgdggfdfs</p>
+                        <small>price:$30</small>
+                        <br>
+                        <a href="#">remove</a>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-product">
+                        <img src="pexels-pixabay-532220.jpg">
+                    </div>
+                    <div>
+                        <p>gfgdggfdfs</p>
+                        <small>price:$30</small>
+                        <br>
+                        <a href="#">remove</a>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-product">
+                        <img src="pexels-lucas-alves-9590220.jpg">
+                    </div>
+                    <div>
+                        <p>gfgdggfdfs</p>
+                        <small>price:$30</small>
+                        <br>
+                        <a href="#">remove</a>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-product">
+                        <img src="pexels-cottonbro-6626903.jpg">
+                    </div>
+                    <div>
+                        <p>gfgdggfdfs</p>
+                        <small>price:$30</small>
+                        <br>
+                        <a href="#">remove</a>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$100</td>
+            </tr>
+        </table>
+
+        <div class="total">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$400</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$430</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="checkout">
+            <a href="checkout.html"><button>Proceed to checkout</button></a>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-container" id="contact">
+            <div class="social-media">
+                <h1 class="follow-text">Follow on Social Media</h1>
+                <a href="#"><i class='fab fa-facebook'></i></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+
+            <div class="contactbox1">
+                <h3>Usefull Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="contactbox2">
+                <a href="#" class="logo">PRISHA</a>
+                <p>Lorem, ipsum dolor sit amet <br> consectetur adipisicing elit <br>
+                    .Copyright @ 2022. All rights reserved</p>
+            </div>
+            <div class="contactbox3">
+                <h3 class="img-text">Download the App</h3>
+                <div class="App-logo">
+                    <img src="apple store.png">
+                    <img src="images.jpg">
+
+                </div>
+            </div>
+
+    </footer>
+</body>
+
+</html>
+
+-----------------------------checkout.html--------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width-device= width" initial-scale="1.0">
+    <meta charset="UTF-8">
+    <title>Payment- PRISHA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body style="background:cadetblue;">
+    <header style="background: white;">
+        <a href="index.html" class="logo">PRISHA</a>
+        <div class="search-box">
+
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Account</a></li>
+
+        </nav>
+        <input type="text" class="search-box" placeholder="search brand , product">
+        <button class="search-btn">Search</button>
+        <i class="fa fa-shopping-bag"></i>
+        <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+
+    </header>
+
+    <div class="payment">
+        <h1>&#8592;Payment</h1>
+        <hr>
+        <h2>Bank Offer</h2>
+        <small>10% cashback upto $ 750 </small>
+        <hr>
+        <i class="fa fa-inr">Cash on delivery</i>
+        <hr>
+        <i class="fa fa-credit-card">Credit card/Debit card</i>
+        <hr>
+        <i class="fa fa-credit-card">Paytm/GooglePay/PhonePay</i>
+        <hr>
+        <i class="fa fa-university">Net Banking</i>
+        <hr>
+        <h3>Price Details(4 items)</h3>
+        <table>
+            <tr>
+                <td>Total $</td>
+                <td>$400</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>Discount</td>
+                <td>$30</td>
+            </tr>
+        </table>
+        <hr>
+        <table>
+            <tr>
+                <td>Total Amount</td>
+                <td>$370</td>
+            </tr>
+        </table>
+
+        <button>Pay Now</button>
+
+
+    </div>
+</body>
+
+</html>
